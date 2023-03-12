@@ -1,0 +1,43 @@
+#recommend {
+    /* display: none; */
+    height: 100vh;
+    background-image: url('./img/Recommend/1.jpg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 50%;
+    background-attachment: fixed;
+}
+
+.recommend-box {
+    width: 40%;
+}
+
+.recommend-content {
+    width: 80%;
+}
+
+.recommend-content h1, .recommend-content p {
+    color: white !important;
+}
+
+.recommend-content h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.recommend-content p {
+    margin-bottom: 30px;
+}
+
+.recommend-content a {
+    border: 0px;
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+    display: inline-block;
+}

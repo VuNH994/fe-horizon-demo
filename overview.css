@@ -1,0 +1,14 @@
+#overview{
+    /* display: none; */
+    padding: 100px 0px;
+    box-sizing: border-box;
+}
+
+.overview-card{
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.overview-card img{
+    border-radius: 30px;
+}

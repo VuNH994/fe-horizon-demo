@@ -1,0 +1,39 @@
+header{
+    /* display: none; */
+    height: 100vh;
+    background-image: url('./img/Header/bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header nav{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    padding: 10px 0px;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.15);
+}
+
+header nav > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+header ul li{
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+}
+
+header ul li::before{
+    display: block;
+    position: absolute;
+    content: '•';
+    left: -17px;
+}
+
+header ul li:nth-child(1):before{
+    display: none;
+}

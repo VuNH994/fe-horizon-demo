@@ -1,0 +1,23 @@
+#edition{
+    /* display: none; */
+    background-image: url('./img/Edition/1.jpg');
+    background-size: auto 120%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 100px 0px;
+    background-attachment: fixed;
+}
+
+#edition *{
+    color: white;
+}
+
+#edition > div{
+    margin-top: 150px;
+}
+
+#edition > div > img{
+    height: 50%;
+    width: 50%;
+}

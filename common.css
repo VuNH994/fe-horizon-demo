@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(75, 71, 71);
+    line-height: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mainSize {
+    width: 1400px;
+    margin: auto;
+}
+
+.mainSize-larger {
+    width: 1600px;
+    margin: auto;
+}
+
+.fz-40 {
+    font-size: 40px;
+}
+
+.fz-30 {
+    font-size: 30px;
+}
+
+.fz-25 {
+    font-size: 25px;
+}
+
+
+.fz-20 {
+    font-size: 20px;
+}
+
+.fz-18 {
+    font-size: 18px;
+}
+
+.fw-bolder {
+    font-weight: bolder;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.ml-20{
+    margin-left: 20px;
+}
+
+.p-20 {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.dflex {
+    display: flex;
+}
+
+.flex-ali-cen {
+    align-items: center;
+}
+
+.flex-jus-end {
+    justify-content: flex-end;
+}
+
+.flex-jus-spaceAr {
+    justify-content: space-around;
+}
+
+.flex-jus-spaceBtw {
+    justify-content: space-between;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.w-33 {
+    width: 33.33%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
